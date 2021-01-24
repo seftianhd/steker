@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <title>RKS</title>
+</head>
+<body>
+    <div class="container" >
+        <aside style="background-color: #2F4F4F">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="link">
+                <a href="index2.html">HOME</a>
+            </div>
+            <br>
+            <div class="link">
+                <a href="profile.html">PROFIL</a>
+            </div>
+            <br>
+            <div class="link">
+                <a href="about.html">ABOUT</a>
+            </div>
+        </aside>
+        <main style="background-color: #3b8686">
+            <div align="center">
+                <br>
+                <h1>HERE YOU ARE</h1>
+                <center>
+                    <img src="gambar/profil.jpg" width="200">
+                </center>
+            </div>
+        </main>
+    </div>
+    <script>
+        const anchor = document.querySelectorAll('aside > a');
+        anchor.forEach(each=>{
+            each.preventDefault();
+        });
+    </script>
+</body>
+</html>
